@@ -78,8 +78,9 @@ color: #FFF;
 
 
 #footer-sec {
-    background-color:#000;
+    background-color:#222;
     color:#808080;
+    border-color: #080808;
 }
     #footer-sec h4 {
         text-transform:uppercase;
@@ -89,4 +90,8 @@ color: #FFF;
    
 #slide img{
     width: 100%;
+}
+
+#footer-sec h4{
+    color: #339BEB;
 }
