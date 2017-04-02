@@ -1,17 +1,4 @@
-﻿/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
+﻿
 .circle {
 	border-radius: 50%;
 	display: inline-block;
@@ -93,7 +80,7 @@ color: #FFF;
     background-color:#222;
     color:#808080;
     border-color: #080808;
-    margin-top: 700px;;
+    margin-top: 40%;
 }
     #footer-sec h4 {
         text-transform:uppercase;
@@ -114,7 +101,7 @@ color: #FFF;
     width: 300px;
     height: 50px;
     background: #333;
-    margin-top: 100px;
+    margin-top: 7%;
    
 }
 #titulo h1{
@@ -130,7 +117,7 @@ color: #FFF;
 /* QUEM SOMOS*/
 
 #textoquemsomos {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -141,5 +128,107 @@ color: #FFF;
 
 #texto {
     width: 60%;
-    text-align: justify
+    text-align: justify;
+    float: left;
+    margin-left: 10%;
 }
+
+/* Formulario*/
+
+form,input,select,textarea,h1 {
+    margin: 0;
+    padding:0;
+    color:#000;
+  }
+
+div.box {
+    margin:0 auto;
+    width:900px;
+    position:relative;
+    top:50px;
+    border:1px solid;
+	border: none;
+}
+
+div.box h1 { 
+    color:#333;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 20px 50px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div.box label {
+    width:100%;
+    display: block;      
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#333;
+    font-size:15px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+
+div.box .input_text {
+    padding:10px 10px;
+    width:600px;
+    background:#FFF;
+    border-bottom: 1px double #CDCDCD;
+    border-top: 1px double #CDCDCD;
+    border-left:1px double #CDCDCD;
+    border-right:1px double #CDCDCD;
+}
+
+textarea {
+	padding-right: 50px;  	
+    width:600px;
+    background:#FFF;
+    border-bottom: 1px double #CDCDCD;
+    border-top: 1px double #CDCDCD;
+    border-left:1px double #CDCDCD;
+    border-right:1px double #CDCDCD;
+	
+
+}
+
+div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#262626;
+    border-bottom: 1px double #CDCDCD;
+    border-top: 1px double #CDCDCD;
+    border-left:1px double #CDCDCD;
+    border-right:1px double #CDCDCD;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .button{	
+    margin:0 0 10px 0;
+    padding:4px 7px;
+  
+    border:0px;
+    position: relative;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 1px double #333;
+    border-top: 1px double #333;
+    border-left:1px double #333;
+    border-right:1px double #333;
+    font-family: 'Montserrat', sans-serif;
+}
+#formulario {
+    margin-top: 5%;
+}
+
