@@ -80,7 +80,7 @@ color: #FFF;
     background-color:#222;
     color:#808080;
     border-color: #080808;
-    margin-top: 40%;
+    margin-top: 10%;
 }
     #footer-sec h4 {
         text-transform:uppercase;
@@ -118,6 +118,7 @@ color: #FFF;
 
 #textoquemsomos {
     width: 70%;
+    height: 550px;
     margin: 0 auto;
     margin-top: 80px;
 }
