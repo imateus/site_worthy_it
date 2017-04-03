@@ -25,19 +25,19 @@ i.fa {
     padding:5px;
 }
 section {
-    padding-top:50px;
+    /* padding-top:50px; */
 }
 
 p {
     font-weight:300;
-    line-height:30px;
+    line-height:20px;
 }
 .pad-row {
     padding-top:40px;
     padding-bottom:40px;
 }
 .pad-bottom {
-    padding-bottom:50px;
+    /*padding-bottom:50px;*/
 }
 
 /* NAVBAR STYLE */
@@ -93,7 +93,7 @@ color: #FFF;
 }
 
 #footer-sec h4{
-    color: #339BEB;
+    color: #428bca;
 }
 
 #titulo {
