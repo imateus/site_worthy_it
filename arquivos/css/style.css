@@ -17,8 +17,33 @@
   height: auto;
   line-height: 1;
 }
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 
-.circle {
+
+
+
+
+.circle2 {
 	border-radius: 50%;
 	display: inline-block;
 	margin-right: 20px;
