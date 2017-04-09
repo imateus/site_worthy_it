@@ -4031,22 +4031,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-brand {
   color: #999;
 }
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
-  color: #fff;
-  background-color: transparent;
-}
+
 .navbar-inverse .navbar-text {
   color: #999;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #999;
 }
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: transparent;
-}
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -5432,13 +5424,7 @@ button.close {
   -webkit-transition: .6s ease-in-out left;
           transition: .6s ease-in-out left;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  line-height: 1;
-}
+
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
